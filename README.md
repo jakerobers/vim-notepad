@@ -16,5 +16,11 @@ Plug 'jakerobers/vim-notepad'
 ## Mapping
 
 ```
+" The directory with your git repos
+let g:notepad_code_directory = "/Users/jacob.robers/Code"
+
+" The directory where you'd like the notes to live
+let g:notepad_notes_directory = "/Users/jacob.robers/Documents/code-notes"
+
 nnoremap <leader>n :OpenNotepad<CR>
 ```
